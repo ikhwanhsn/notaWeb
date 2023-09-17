@@ -16,7 +16,7 @@ function App() {
         <Table/>
       </div>
       <div className="relative">
-        <button onClick={handlePrint} className='absolute w-fit px-3 py-2 text-white bg-green-500 rounded-md shadow-md -top-[608px] md:left-32 md:ml-4 left-3'>Print Nota</button>
+        <button onClick={handlePrint} className='absolute w-fit px-3 py-2 text-white bg-green-500 hover:bg-green-600 rounded-md shadow-md -top-[608px] md:left-32 md:ml-4 left-3'>Print Nota</button>
       </div>
     </div>
   )
